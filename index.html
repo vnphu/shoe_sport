@@ -21,7 +21,7 @@
 
 <body>
   <div class="header">
-    <a style="color: #ffffff;text-decoration: none;" href="Home.html">MIỄN PHÍ VẬN CHUYỂN VỚI ĐƠN HÀNG NỘI THÀNH > 300K
+    <a style="color: #ffffff;text-decoration: none;" href="index.html">MIỄN PHÍ VẬN CHUYỂN VỚI ĐƠN HÀNG NỘI THÀNH > 300K
       - ĐỔI TRẢ TRONG 30 NGÀY - ĐẢM BẢO CHẤT LƯỢNG</a>
   </div>
 
@@ -30,18 +30,18 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
 
     <div class="container">
-      <a class="navbar-brand" href="Home.html">
+      <a class="navbar-brand" href="index.html">
         <img src="images/logo.png" class="logo-top" alt="">
       </a>
       <div class="desk-menu collapse navbar-collapse justify-content-md-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="Home.html">TRANG CHỦ</a>
+            <a class="nav-link" href="index.html">TRANG CHỦ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Product.html">BỘ SƯU TẬP</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item lisanpham">
             <a class="nav-link" href="detailproduct.html">SẢN PHẨM
               <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </a>
@@ -76,45 +76,46 @@
       </div>
       <div id="offcanvas-flip1" uk-offcanvas="flip: true; overlay: true">
         <div class="uk-offcanvas-bar" style="background: white;
-        width: 350px;">
+        width: 100%;">
 
           <button class="uk-offcanvas-close" style="color:#272727" type="button" uk-close></button>
           <h3 style="font-size: 14px;
-                color: #272727;
-                text-transform: uppercase;
-                margin: 3px 0 30px 0;
-                font-weight: 500; letter-spacing: 2px;">MENU</h3>
-          <div class="justify-content-md-center">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="Home.html">TRANG CHỦ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Product.html">BỘ SƯU TẬP</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Sản phẩm
+          color: #272727;
+          text-transform: uppercase;
+          margin: 3px 0 30px 0;
+          font-weight: 500; letter-spacing: 2px;">MENU</h3>
+            <div class="justify-content-md-center">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Product.html">BỘ SƯU TẬP</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle aaaa"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" >
+                    <p>SẢN PHẨM</p>
+                    <i class="fa fa-angle-double-right"></i>
 
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="border:0;">
-                  <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 1">Sản phẩm - Style 1</a>
-                  <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 2">Sản phẩm - Style 2</a>
-                  <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 3">Sản phẩm - Style 3</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">BLOG</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html">LIÊN HỆ</a>
-              </li>
-            </ul>
-          </div>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="border:0;">
+                    <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 1">Sản phẩm - Style 1</a>
+                    <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 2">Sản phẩm - Style 2</a>
+                    <a class="dropdown-item" href="detailproduct.html" title="Sản phẩm - Style 3">Sản phẩm - Style 3</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">LIÊN HỆ</a>
+                </li>
+              </ul>
+            </div>
 
         </div>
       </div>
@@ -199,12 +200,13 @@
       </div>
 
       <div class="icon-ol">
-        <a href="#" class="" uk-toggle="target: #offcanvas-flip">
-          <i class="fas fa-search" style="color: black"></i>
-        </a>
         <a style="color: #272727" href="">
           <i class="fas fa-user-alt"></i>
         </a>
+        <a href="#" class="" uk-toggle="target: #offcanvas-flip">
+          <i class="fas fa-search" style="color: black"></i>
+        </a>
+        
         <a style="color: #272727" href="#" uk-toggle="target: #offcanvas-flip2">
           <i class="fas fa-shopping-cart"></i>
         </a>
@@ -218,7 +220,7 @@
 
   </nav>
   <!-- Owl-Carousel -->
-  <div class="owl-carousel owl-theme">
+  <div class="owl-carousel owl-theme owl-carousel-setting">
     <div class="item"><img src="images/slideshow_1.jpg" class="d-block w-100" alt="..."></div>
     <div class="item"><img src="images/slideshow_2.jpg" class="d-block w-100" alt="..."></div>
 </div>
@@ -246,10 +248,7 @@
                   alt="Adidas EQT Cushion ADV" class="lazyloaded">
                 <img src="images/shoes/shoes fade 1.jpg" alt="Adidas EQT Cushion ADV" class="lazyloaded">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -273,10 +272,7 @@
                   class="lazyloaded">
                 <img src="images/shoes/shoes fade 2.jpg" alt="Adidas Nmd R1" class="lazyloaded">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -299,10 +295,7 @@
                   alt="Adidas PW Solar HU NMD" class="lazyloaded">
                 <img src="images/shoes/shoes fade 3.jpg" alt="Adidas PW Solar HU NMD" class="lazyloaded">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -326,10 +319,7 @@
                   class="lazyloaded">
                 <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -354,10 +344,7 @@
                   alt="Adidas Yeezy boost 350 v2">
                 <img class="lazyloaded" src="images/shoes/shoes fade 5.jpg" alt="Adidas Yeezy boost 350 v2">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -383,10 +370,7 @@
                   alt="Adidas Yeezy Boost 700">
                 <img class="lazyloaded" src="images/shoes/shoes fade 6.jpg" alt="Adidas Yeezy Boost 700">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -409,10 +393,7 @@
                   alt="Adidas Zx 4000 4d">
                 <img class="lazyloaded" src="images/shoes/shoes fade 7.jpg" alt="Adidas Zx 4000 4d">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+            
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -435,10 +416,7 @@
                   alt=" Ultra Boost">
                 <img class="lazyloaded" src="images/shoes/shoes fade 8.jpg" alt=" Ultra Boost">
               </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
+             
             </div>
             <div class="product-detail clearfix">
               <div class="pro-text">
@@ -521,184 +499,164 @@
         </div>
         <!--Product-->
       </div>
-      <div class="container product">
-        <div class="owl-carousel owl-theme" style="padding-bottom: 50px;">
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title=" Nike Air Max 1 Anniversary" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/1.jpg" alt=" Nike Air Max 1 Anniversary">
-                <img class="lazyloaded" src="images/shoes/1-1.jpg" alt=" Nike Air Max 1 Anniversary">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                  font-size: 14px;text-decoration: none;" href="#" title=" Nike Air Max 1 Anniversary"
-                  inspiration pack>
-                  Nike Air Max 1 Anniversary
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">4,200,000₫</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike Air Max 1 Se" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/2.jpg" alt="Nike Air Max 1 Se">
-                <img class="lazyloaded" src="images/shoes/2-2.jpg" alt="Nike Air Max 1 Se">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                             font-size: 14px;text-decoration: none;" href="">
-                  Nike Air Max 1 Se "Just Do It"
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">4,900,000₫</p>
+      <div class="container product" style="width: 100%;margin: auto;">
+        <div class="owl-carousel owl-theme owl-product-setting">
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike Air Max 90 Essential" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/3.jpg" alt="Nike Air Max 90 Essential">
-                <img class="lazyloaded" src="images/shoes/3-3.jpg" alt="Nike Air Max 90 Essential">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                              font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                  Nike Air Max 90 Essential "Grape"
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">4,800,000₫</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike Air Max 97 Oa Jl" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/4.jpg" alt="Nike Air Max 97 Oa Jl">
-                <img class="lazyloaded" src="images/shoes/4-4.jpg" alt="Nike Air Max 97 Oa Jl">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                   font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                  Nike Air Max 97 Oa Jl "London Summer Of Love"
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">5,900,000₫</p>
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike Air Max 97 Premium" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/5.jpg" alt="Nike Air Max 97 Premium">
-                <img class="lazyloaded" src="images/shoes/5-5.jpg" alt="Nike Air Max 97 Premium">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                   font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                  Nike Air Max 97 Premium
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">8,000,000₫</p>
-              </div>
-            </div>
-          </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike W's Air Huarache Run" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/6.jpg" alt="Nike W's Air Huarache Run">
-                <img class="lazyloaded" src="images/shoes/6-6.jpg" alt="Nike W's Air Huarache Run">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                   font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                  Nike W's Air Huarache Run "Triple White"
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">7,300,000₫</p>
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="product-block">
-            <div class="product-img fade-box">
-              <a href="#" title="Nike Wmns Air Huarache City Move" class="img-resize">
-                <img class="lazyloaded" src="images/shoes/7.jpg" alt="Nike Wmns Air Huarache City Move">
-                <img class="lazyloaded" src="images/shoes/7-7.jpg" alt="Nike Wmns Air Huarache City Move">
-              </a>
-              <div class="button-add">
-                <button type=submit title="Mua ngay" class="action">Mua ngay</button>
-                <button type="submit" title="Thêm vào giỏ" class="action add-to-cart">Thêm vào giỏ</button>
-              </div>
-            </div>
-            <div class="product-detail clearfix">
-              <div class="pro-text">
-                <a style=" color: black;
-                                   font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                  Nike Wmns Air Huarache City Move
-                </a>
-              </div>
-              <div class="pro-price">
-                <p class="">5,200,000₫</p>
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class=""><a href="#" title="Adidas EQT Cushion ADV">
-              <img class="img-resize" src="images/shoes/8.jpg" alt="Nike Air Max 97 Oa Jl">
-            </a>
-            <div class="pro-text">
-              <a style=" color: black;
-                             font-size: 14px;text-decoration: none;" href="#" inspiration pack>
-                Nike Air Max 97 Oa Jl "London Summer Of Love"
-              </a>
-            </div>
-            <div class="pro-price">
-              <p class="">5,900,000₫</p>
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="item">
+            <div class="">
+              <div class="product-block">
+                <div class="product-img fade-box">
+                  <a href="#" title="Adidas Ultraboost W" class="img-resize">
+                    <img src="images/shoes/801432_01_b16d089f8bda434bacfe4620e8480be1_grande.jpg" alt="Adidas Ultraboost W"
+                      class="lazyloaded">
+                    <img src="images/shoes/shoes fade 4.jpg" alt="Adidas Ultraboost W" class="lazyloaded">
+                  </a>
+                 
+                </div>
+                <div class="product-detail clearfix">
+                  <div class="pro-text">
+                    <a style=" color: black;
+                           font-size: 14px;text-decoration: none;" href="#" title="Adidas Ultraboost W" inspiration pack>
+                      Adidas Ultraboost W
+                    </a>
+                  </div>
+                  <div class="pro-price">
+                    <p class="">5,300,000₫</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+
+
+
+
       </div>
     </section>
     <section class="">
@@ -975,6 +933,30 @@
       </div>
     </footer>
   </div>
+  <div class="registratior_custom">
+    <form action="">
+        <div class="content">
+          <div class="x-close">
+            <i class="fa fa-times"></i>
+          </div>
+          <h3>Nhận các ưu đãi cùng Runner</h3>
+          <p>Chúng tôi sẽ cập nhật các chương trình khuyến mãi mới đến bạn</p>
+          <ul>
+            <li>
+              <span>Giảm giá sản phẩm</span>
+            </li>
+            <li>
+              <span>Sản phẩm mới</span>
+            </li>
+            <li>
+              <span>Sản phẩm bán chạy/span>
+            </li>
+          </ul>
+          <input type="text" placeholder="Đăng kí nhận thông tin">
+          <button class="button_register"><p>ĐĂNG KÍ</p></button>
+        </div>
+    </form>
+  </div>
   <script async defer crossorigin="anonymous" src="plugins/sdk.js"></script>
   <script src="plugins/jquery-3.4.1/jquery-3.4.1.min.js"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
@@ -982,6 +964,7 @@
   <script src="plugins/bootstrap/bootstrap.min.js"></script>
   <script src="plugins/owl.carousel/owl.carousel.min.js"></script>
   <script src="js/home.js"></script>
+  <script src="js/script.js"></script>
   <script src="plugins/uikit/uikit.min.js"></script>
   <script src="plugins/uikit/uikit-icons.min.js"></script>
 </body>
